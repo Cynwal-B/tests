@@ -25,7 +25,7 @@ static void Player_ctor(PlayerClass *this, va_list *args)
     this->identifier = strdup("Kreog");
     this->power = rand() % 42;
 
-    printf("Player()\n");
+    printf("Player Caca()\n");
 }
 
 static void Player_dtor(PlayerClass *this)
